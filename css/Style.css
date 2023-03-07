@@ -99,3 +99,14 @@ h1 {
   justify-self: center;
  
 }
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+
+}
+.grid div{
+  border: 2px solid blanchedalmond;
+}
+.grid div img{
+  width: 100%;
+}
