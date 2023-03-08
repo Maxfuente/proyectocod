@@ -7,6 +7,7 @@
 .body {
 
   background-color: whitesmoke;
+  
 }
 
 h1 {
@@ -29,9 +30,16 @@ h1 {
   border: 10px solid rgb(69, 192, 20);
   border-radius: 8px;
   padding: 8px;
-  width:100%;
+  width:95%;
   flex-wrap: wrap;
 
+}
+
+.mapa{
+  
+  padding: 8px;
+  width:100%;
+  flex-wrap: wrap;
 }
 
 .menu {
