@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 6px;
   padding: 0;
@@ -18,6 +19,140 @@
   flex-wrap: wrap;
   transition: 0.5s;
 }
-.menu menu:hover {
+.menu :hover {
   transform: scale(1.2);
+}
+
+h1 {
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  font-size: 80px;
+  color: rgb(4, 128, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-shadow: 5px 5px black;
+  background-color: darkgreen;
+  flex-wrap: wrap;
+}
+
+.h2 {
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  font-size: 30px;
+  color: rgb(4, 128, 0);
+  justify-items: center;
+}
+
+.h4 {
+  font-family: helvetica;
+  font-size: 18px;
+}
+
+.colegio {
+  display: flex;
+  border: 10px solid rgb(69, 192, 20);
+  border-radius: 8px;
+  padding: 8px;
+  width: 95%;
+  flex-wrap: wrap;
+}
+
+.mapa {
+  padding: 8px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.bajo {
+  width: 100%;
+  background-color: rgb(228, 235, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.niño {
+  width: 30%;
+  display: inline-block;
+  transition: 1s;
+}
+.niño .niño:hover {
+  transform: scale(1.2);
+}
+
+.card2 {
+  background-color: darkkhaki;
+  width: 350px;
+  margin: 20px 30px;
+  padding: 5px 5px;
+  border: solid green 7px;
+  display: block;
+  justify-self: center;
+}
+
+.container {
+  justify-self: center;
+}
+
+.vision {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "imagen imagen parrafo" "imagen imagen parrafo_2";
+}
+
+.parrafo {
+  background-color: darkkhaki;
+  grid-area: parrafo;
+}
+
+.imagen {
+  background-color: darkkhaki;
+  grid-area: imagen;
+}
+
+.parrafo_2 {
+  background-color: darkkhaki;
+  grid-area: parrafo_2;
+}
+
+.imasf {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .parrafo {
+    background-color: chartreuse;
+  }
+  .imagen {
+    background-color: chartreuse;
+  }
+  .parrafo_2 {
+    background-color: chartreuse;
+  }
+  .card {
+    background-color: chocolate;
+  }
+}
+@media screen and (max-width: 768px) {
+  .parrafo {
+    background-color: rgb(89, 0, 255);
+  }
+  .imagen {
+    background-color: rgb(89, 0, 255);
+  }
+  .parrafo_2 {
+    background-color: rgb(89, 0, 255);
+  }
+  .card {
+    background-color: rgb(56, 184, 184);
+  }
 }/*# sourceMappingURL=Estilo.css.map */

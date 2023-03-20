@@ -1,0 +1,37 @@
+.colegio {
+    display:flex;
+    border: 10px solid rgb(69, 192, 20);
+    border-radius: 8px;
+    padding: 8px;
+    width:95%;
+    flex-wrap: wrap;
+  
+  }
+  .mapa{
+  
+    padding: 8px;
+    width:100%;
+    flex-wrap: wrap;
+  }
+  .bajo{
+    width: 100%;
+    background-color: rgb(228, 235, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+  }
+  .logo{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .niño{
+    width: 30%;
+    display: inline-block;
+    transition: 1s;
+    
+    .niño:hover{
+      transform: scale(1.2);
+    }
+}
