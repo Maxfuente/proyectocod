@@ -1,0 +1,13 @@
+.menu {
+
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkkhaki;
+    flex-wrap: wrap;
+    transition: 0.5s;
+
+    menu:hover{transform: scale(1.2);}
+  }

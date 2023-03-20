@@ -1,0 +1,23 @@
+* {
+  margin: 6px;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.body {
+  background-color: whitesmoke;
+}
+
+.menu {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: darkkhaki;
+  flex-wrap: wrap;
+  transition: 0.5s;
+}
+.menu menu:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=Estilo.css.map */
