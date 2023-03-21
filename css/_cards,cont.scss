@@ -1,3 +1,16 @@
+.card {
+    background-color: darkkhaki;
+    width: 350px;
+    margin: 20px 30px;
+    padding: 5px 5px;
+    border: solid green 7px;
+  
+    display: inline-block;
+
+    .card__image {
+        width: 80px;
+      }
+  }
 .card2{
     background-color: darkkhaki;
     width: 350px;
@@ -5,11 +18,14 @@
     padding: 5px 5px;
     border: solid green 7px;
   
-    display:block;
-    justify-self: center;
+    display:inline-block;
+    
+
+ 
   }
   .container{
     justify-self: center;
+    width: 100%;
    
   }
   
@@ -17,11 +33,11 @@
     width: 100%;
     
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr; 
     grid-template-areas: 
-    "imagen imagen parrafo"
-    "imagen imagen parrafo_2";
+    "imagen  parrafo"
+    "imagen parrafo_2";
   
   }
   .parrafo{
@@ -39,8 +55,15 @@
     grid-area: parrafo_2;
   }
   .imasf{
-    width:100%;
-    height: 100%;
+    display: flex;
+    justify-self: center;
+    width:70%;
+    
     
   }
-  
+  .form{
+    background-color: rgb(20, 175, 67);
+    display:inline-block;
+    align-items: center;
+    
+  }

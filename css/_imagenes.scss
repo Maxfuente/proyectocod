@@ -5,12 +5,18 @@
     padding: 8px;
     width:95%;
     flex-wrap: wrap;
+    transition: 1s;
+
+    &.colegio:hover{
+        transform: translate(5px,7px);
+        
+    }
   
   }
   .mapa{
   
     padding: 8px;
-    width:100%;
+    width:80%;
     flex-wrap: wrap;
   }
   .bajo{
@@ -27,11 +33,22 @@
     flex-wrap: wrap;
   }
   .niño{
-    width: 30%;
+    width: 35%;
     display: inline-block;
     transition: 1s;
     
-    .niño:hover{
+    &.niño:hover{
       transform: scale(1.2);
     }
+}
+.articulos{
+    width: 40%;
+    justify-content:space-around;
+    transition: 1s;
+    
+    &.articulos:hover{
+        transform: scale(1.1);
+    }
+
+
 }
