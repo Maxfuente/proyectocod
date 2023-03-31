@@ -1,11 +1,12 @@
 .card {
     background-color: darkkhaki;
-    width: 310px;
-    margin:3px ,0px;
+    width: 320px;
+    margin: 20px ,5px;
     padding: 5px 5px;
     border: solid green 7px;
   
-    display: inline-block;
+    display:inline-block;
+    justify-content:space-between;
 
     .card__image {
         width: 70px;
@@ -13,7 +14,7 @@
   }
 .card2{
     background-color: darkkhaki;
-    width: 310px;
+    width: 325px;
     margin:3px ,0px;
     padding: 5px 5px;
     border: solid green 7px;
