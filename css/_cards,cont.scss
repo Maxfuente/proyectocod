@@ -1,11 +1,10 @@
 .card {
     background-color: darkkhaki;
-    width: 330px;
-    margin: 5px 0px;
+    
     padding: 5px 5px;
     border: solid green 7px;
   
-    display: flex;
+    display: inline-block;
 
     .card__image {
         width: 70px;
@@ -13,12 +12,11 @@
   }
 .card2{
     background-color: darkkhaki;
-    width: 330px;
-    margin: 5px 0px;
+   
     padding: 5px 5px;
     border: solid green 7px;
   
-    display:flex;
+    display:inline-block;
     
 
  
