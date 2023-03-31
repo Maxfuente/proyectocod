@@ -1,6 +1,6 @@
 .card {
     background-color: darkkhaki;
-    width: 350px;
+    width: 100%;
     margin: 20px 30px;
     padding: 5px 5px;
     border: solid green 7px;
@@ -8,7 +8,7 @@
     display: inline-block;
 
     .card__image {
-        width: 80px;
+        width: 70px;
       }
   }
 .card2{
